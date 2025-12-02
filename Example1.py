@@ -3,7 +3,7 @@ from tkinter import ttk, messagebox
 import requests
 
 # --- Configuration ---
-API_KEY = "CDL7E5QQXNXD02ON" 
+API_KEY = "smegma"
 BASE_URL = r"https://www.alphavantage.co/query?"
 
 
@@ -100,4 +100,5 @@ if __name__ == "__main__":
     if API_KEY == "YOUR_API_KEY":
         messagebox.showwarning("API Key Required",
                                "Please replace 'YOUR_API_KEY' with your actual Alpha Vantage key in the script.")
+
     root.mainloop()
